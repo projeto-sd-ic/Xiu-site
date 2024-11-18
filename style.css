@@ -271,7 +271,7 @@ section{
 }
  
 /*experiencia*/
-#contato{
+#autores{
     position: relative;
 }
 
@@ -281,7 +281,7 @@ section{
     font-size: 3rem;
     margin-bottom: 2rem;
 }
-.contato-details-container{
+.autores-details-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -307,9 +307,9 @@ article .icon{
     cursor: default;
 }
 
-/*Contato*/
+/*autores*/
 
-#contato{
+#autores{
     position: relative;
 }
 
@@ -340,7 +340,7 @@ article .icon{
 }
 /*contact*/
 
-#contato{
+#autores{
     display:flex ;
     justify-content: center;
     flex-direction: column;
