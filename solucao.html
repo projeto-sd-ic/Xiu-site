@@ -3,37 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xiu</title>
+    <title>Solução - Projeto Xiu</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo"><a href="index.html"><img src="assets/Xiu.png" alt="logo" class="logo" ></a></div>
-            <div>
-                <ul class="nav-links">
-                    <li><a href="sobre.html">Sobre o projeto</a></li>
-                    <li><a href="processo.html">Processo</a></li>
-                    <li><a href="solucao.html">Solução</a></li>    
-                    <li><a href="contato.html">Contatos</a></li>
-                </ul>
-            </div>
-        </nav>
-        <nav id="hamburguer-nav">
-            <div class="logo"> <img src="assets/logo 3.png" alt="logo"></div>
-            <div class="hamburguer-menu">
-                <div class="hamburguer-icon" onclick="toggleMenu()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="menu-links">
-                    <li><a href="sobre.html" onclick="toggleMenu()">Sobre o projeto</a></li>
-                    <li><a href="processo.html" onclick="toggleMenu()">Processo</a></li>
-                    <li><a href="solucao.html" onclick="toggleMenu()">Solução</a></li>
-                    <li><a href="contato.html" onclick="toggleMenu()">Contatos</a></li>
-                </div>
-            </div>
+        <div class="logo"><a href="index.html"><img src="assets/Xiu.png" alt="logo"></a></div>
+        <ul class="nav-links">
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="processo.html">Processo</a></li>
+            <li><a href="solucao.html">Solução</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
     </nav>
+    <main>
+        <h1>Solução Proposta</h1>
+        <p>O Xiu é composto por:</p>
+        <ul>
+            <li>Sensor de som KY-037</li>
+            <li>Arduino Uno R3</li>
+            <li>Protoboard</li>
+            <li>LEDs</li>
+            <li>Jumpers</li>
+        </ul>
+        <p>Esses componentes trabalham juntos para captar ruídos e sinalizar com LEDs.</p>
+
+        <h2>Componentes Utilizados</h2>
+        <p>Confira os componentes utilizados na solução:</p>
+        <div class="componentos">
+            <div class="componente">
+                <h3>Sensor de Som KY-037</h3>
+                <img src="assets/sensor.jpg" alt="Sensor de Som KY-037">
+                <p>O Módulo Sensor Detector de Som e Ruído KY-037 é um módulo composto por um circuito integrado LM393 que atua como comparador, um trimpot (um pequeno potenciômetro) para ao ajuste da sensibilidade de detecção sonora, e um microfone condensador elétrico de capacitância extremamente sensível à sons e ruídos. O módulo KY-037 possui duas saídas, sendo uma delas analógica e a outra digital. A saída analógica sofre variação de acordo com a intensidade dos sons, atuando com uma grande precisão na captura por meio do microfone, e atua disponibilizando tensão analógica reconhecível pelo Arduino. A saída digital atua como uma chave on/off, emitindo assim dois possíveis níveis lógicos ao Arduino, sendo ou nível lógico alto ou baixo segundo a intensidade do som ou do ruído capturado. 
+                </p>
+            </div>
+            <div class="componente">
+                <h3>Arduino Uno R3</h3>
+                <img src="assets/arduino.jpg" alt="Arduino Uno R3">
+                <p>É uma placa microcontroladora. Ela possui 20 pinos digitais de entrada/saída de dados (dos quais 7 podem ser usados como saída PWM e 12 podem ser usados como entradas analógicas), possui um cristal oscilador de 16MHz, uma conexão Micro USB, um conector estilo P4 para conexão de fonte externa, conector para ICSP e um botão reset. Preparada para simplesmente ser conectada com o cabo micro USB ou alimentando a placa via fonte externa.
+                </p>
+            </div>
+            <div class="componente">
+                <h3>Protoboard</h3>
+                <img src="assets/protoboard.jpg" alt="Protoboard">
+                <p>É uma placa de ensaio que serve para criar e prototipagem de circuitos eletrônicos, com possibilitando construir circuitos de teste sem que haja necessidade de solda e, assim, garantindo a praticidade e segurança para diferentes atividades. Logo, serve como um instrumento de teste: antes de se soldar na placa, você testa no protótipo, e, se tudo der certo, parte para o projeto final.
+                </p>
+            </div>
+            <div class="componente">
+                <h3>LEDs</h3>
+                <img src="assets/led.jpg" alt="LEDs">
+                <p>O termo LED “Light Emitting Diode” (Diodo Emissor de Luz, em português). Esse componente converte eletricidade em luz. A estrutura básica de um LED é composta por dois terminais semicondutores chamados ânodo e cátodo. 
+                </p>
+            </div>
+            <div class="componente">
+                <h3>Jumpers</h3>
+                <img src="assets/jumpers.jpg" alt="Jumpers">
+                <p>Jumpers, são pequenos pedacinhos de fio condutor utilizados em eletrônica e engenharia de prototipagem para estabelecer conexões entre pontos na protoboard. Geralmente são usados durante a fase de prototipagem para testes. Os fios geralmente são feitos de cobre revestido de isolamento plástico, o que os torna flexíveis e fáceis de manusear. 
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Projeto Xiu. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
