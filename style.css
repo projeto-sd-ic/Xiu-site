@@ -85,8 +85,8 @@ a:hover{
 
 section{
     padding-top: 4vh;
-    height: 96vh;
     margin: 0 10rem;
+    height: 80vh;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -330,7 +330,6 @@ article .icon{
 } 
 
 footer{
-    height: 26vh;
     margin: 0 1rem;
 }
 footer p{
@@ -404,12 +403,14 @@ iframe{
     font-size: 100px;
     margin-left: 100px;
     margin-top: 40px;
-}
-.conteudo-informacoes{
-    margin-top: 20px;
     margin-right: 100px;
+    padding: 20px;
 }
-.conteudo-informacoes p{
+.conteudo-box{
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.conteudo-box p{
     text-align: justify;
 }
 .valores{
@@ -417,11 +418,11 @@ iframe{
     margin-top: 10px;
 }
 
-.conteudo-informacoes h2{
+.conteudo-box h2{
     margin-bottom: 30px;
 }
 
-.conteudo-informacoes h3{
+.conteudo-box h3{
     margin-top: 15px;
     margin-bottom: 20px;
     position: relative;
