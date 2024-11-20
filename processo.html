@@ -9,55 +9,167 @@
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo"><a href="index.html"><img src="assets/Xiu.png" alt="logo" class="logo" ></a></div>
+        <div class="logo"><a href="index.html"> <img src="assets/Xiu.png" alt="logo" class="logo" ></a></div>
         <div>
             <ul class="nav-links">
                 <li><a href="sobre.html">Sobre o projeto</a></li>
-                <li><a href="processo.html">Processo</a></li>
-                <li><a href="solucao.html">Solução</a></li>    
+                <li><a href="processo.html">Processo</a></li> 
                 <li><a href="autores.html">Autores</a></li>
             </ul>
         </div>
     </nav>
-    <nav id="hamburguer-nav">
-        <div class="logo"> <img src="assets/logo 3.png" alt="logo"></div>
-        <div class="hamburguer-menu">
-            <div class="hamburguer-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
+    <section id="experiencia">
+        <h1 class="title">Como foi desenvolvido o Xiu?</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Componentes</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone de experiencia" class="icon">
+                            <div>
+                                <h3>1 Arduino uno R3</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone de experiencia" class="icon">
+                            <div>
+                                <h3>1 protoboard</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone de experiencia" class="icon">
+                            <div>
+                                <h3>1 sensor de som KY-037</h3>
+                            </div>
+                        </article>
+                       
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone de experiencia" class="icon">
+                            <div>
+                                <h3>6 resistores </h3>
+                                <p>Para os LEDs</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone de experiencia" class="icon">
+                            <div>
+                                <h3>6 LEDs para amostragem visuais</h3>
+                                <p>2 verdes, 2 amarelas e 2 verdes</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone de experiencia" class="icon">
+                            <div>
+                                <h3>16 Jumpers</h3>
+                                <p>3 Jumpers macho-fêmea; 13 Jumpers macho-macho</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone de experiencia" class="icon">
+                            <div>
+                                <h3>1 chave de fenda pequena</h3>
+                                <p>para ajustar o sensor de som</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Aplicativos e plataformas</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone de experiencia" class="icon">
+                            <div>
+                                <h3>Tinkercad</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone de experiencia" class="icon">
+                            <div>
+                                <h3>IDE do Arduino</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone de experiencia" class="icon">
+                            <div>
+                                <h3>Canva</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone de experiencia" class="icon">
+                            <div>
+                                <h3>GitHub</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone de experiencia" class="icon">
+                            <div>
+                                <h3>Flaticon</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone de experiencia" class="icon">
+                            <div>
+                                <h3>Google Docs</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone de experiencia" class="icon">
+                            <div>
+                                <h3>Youtube</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
             </div>
-            <div class="menu-links">
-                <li><a href="sobre.html" onclick="toggleMenu()">Sobre o projeto</a></li>
-                <li><a href="processo.html" onclick="toggleMenu()">Processo</a></li>
-                <li><a href="solucao.html" onclick="toggleMenu()">Solução</a></li>
-                <li><a href="contato.html" onclick="toggleMenu()">Autores</a></li>
-            </div>
-        </div>
-    </nav>
-    <nav id="desktop-nav"></nav>
-        <div class="logo"><a href="index.html"><img src="assets/Xiu.png" alt="logo" class="logo" ></a></div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="sobre.html">Sobre o projeto</a></li>
-                <li><a href="processo.html">Processo</a></li>
-                <li><a href="solucao.html">Solução</a></li>    
-                <li><a href="autores.html">Autores</a></li>
-            </ul>
-        </div>
-    </nav>
-     <nav>
-        <div class="processo">
-            <ul>
-                <li> <a href="Projeto portfólio\index.html"> Home </a> </li>
-                <li> <a href="Projetos\index.html"> Solução </a> </li>
-                <li> <a href="Contato\index.html"> Autores </a> </li>
-            </ul>
-        </div>
-    </nav>
-<section class="fundao">
-    <div class="texto">
-         <p> <strong>Componentes e suprimentos</strong> Sou estudante de Analise e Desenvolvimento de Sistemas lá na CESAR School.<br/>Atualmente trabalho no departamento de tecnologia do Sport Club do Recife.</p>
-    </div>
-
+        </div>    
+        </section>
+        <section>
+            <h1 class="title">Passo a Passo</h1>
+        </section>
+        <section id="">
+            <h1 class="title">Código do projeto</h1>
+    <pre>
+  
+<code>int sensor_valor = 0;
+int limite_som = 670; //Depois de fazer a calibração do trimpot, inserir o valor obtido de ajuste aqui
+int abs_valor = 0;
+int contagem_leds = 6; //quantidade de LEDs
+int Pinos_Leds[] = {3, 4, 5, 6, 7, 8}; // Pinos do arduínos referente aos LEDs
+  void setup(){
+Serial.begin(9600); // setup serial
+for (int i = 0; i <= contagem_leds; i++)
+{
+  pinMode(Pinos_Leds[i], OUTPUT);
+}
+for (int i = 0; i <= 9; i++)
+{
+  digitalWrite(i, LOW);
+}
+}
+void loop() {
+sensor_valor = analogRead(A0); //Intensidade do som obtido pelo sensor pelo pino analógico A0 do arduíno
+Serial.println(sensor_valor);
+abs_valor = abs(sensor_valor - limite_som);
+int ledLevel = map(abs_valor, 0, (1024 - limite_som), 0, contagem_leds);
+for (int i = 0; i < contagem_leds; i++) {
+//Se o índice do elemento da matriz for menor que ledLevel, pinos dos leds em nível alto:
+if (i < ledLevel) {
+digitalWrite(Pinos_Leds[i], HIGH);
+Serial.println(i);
+}
+// Se não desative todos os pinos mais altos que o ledLevel:
+else {
+digitalWrite(Pinos_Leds[i], LOW);
+}
+}}</code>
+</pre>
+    </section>
+    <section>
+        <h1 class="title"> Problemas enfrentados e lições aprendidas</h1>
+        <p>Perdemos muito tempo com a parte de calibração e captação sonora. Pois, não sabíamos se deveríamos usar a porta analógica ou digital do sensor.
+            Diante disso, pesquisamos vários projetos na internet e decidimos por usar a porta analógica. Ademais, ao invés de perdemos mais tempo com a regulação do Sensor de som KY-037, fizemos ajustes no código, de forma com que o mesmo acendesse todos os leds de acordo com o level de ruído.
+            Desse modo, aprendemos a buscar por soluções e adaptações para a implementação do sensor e calibragem dos leds via código.
+        </p>
+    </section>
 </body>
