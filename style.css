@@ -271,8 +271,8 @@ article .icon{
 
 .integrante-img{
     border-radius: 2rem;
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
 }
 
 .integrante-title{
@@ -286,8 +286,8 @@ article .icon{
 }
 .integrante-img{
     border-radius: 2rem;
-    width:  200px;
-    height: 200px;
+    width:  300px;
+    height: 300px;
 }
 /*contact*/
 
@@ -352,42 +352,7 @@ iframe{
 
 /*process*/
 #processo{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    height: 60vh;
-}
-
-.processo-container{
-    gap: 4rem;
-    margin-bottom: 4rem;
-    margin-top: 4rem;
-}
-
-.about-details-container{
-    justify-content: center;
-    flex-direction: column;
-}
-.processo-container, .processo-details-container{
-    display: flex;
-}
-.processo-details-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-pre {
-    background-color: #ffde7d;
-    padding: 10px;           
-    border-radius: 5px;      /* Bordas arredondadas */
-    overflow-x: auto;        /* Barra de rolagem horizontal */
-    color: #ff013c;
-}
-code{
-    font-family: "Courier New", Courier, monospace;
-    
+    gap: 1.5rem;
 }
 
 /*albean - Sobre*/
@@ -433,7 +398,7 @@ code{
     align-items: center;
     text-align: center;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 20px;
 }
 .icones-sobre{
     font-size: 100px;
@@ -462,8 +427,6 @@ code{
     position: relative;
     display: flex;
     justify-content: center;
-    gap: 5rem;
-    height: 60vh;
 }
 
 .processo-container{
