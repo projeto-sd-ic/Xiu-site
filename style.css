@@ -389,3 +389,110 @@ code{
     font-family: "Courier New", Courier, monospace;
     
 }
+
+/*albean - Sobre*/
+
+.sobre-geral{
+    margin-top: 150px;
+}
+
+.flex-sobre{
+    display: flex;
+}
+
+.img-sobre{
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.txt-sobre p{
+    text-align: justify;
+}
+
+.txt-sobre h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.txt-sobre h3{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.sobre-geral .txt-sobre .btn-social button{
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(192, 101, 116);
+    cursor: pointer;
+    transition: .2s;
+    margin: 0 3px;
+}
+.titulo-sobre2{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.icones-sobre{
+    font-size: 100px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.conteudo-informacoes{
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.conteudo-informacoes p{
+    text-align: justify;
+}
+.valores{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.conteudo-informacoes h2{
+    margin-bottom: 30px;
+}
+
+.conteudo-informacoes h3{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 60vh;
+}
+
+.processo-container{
+    gap: 4rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+.processo-container, .processo-details-container{
+    display: flex;
+}
+.processo-details-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+pre {
+    background-color: #ffde7d;
+    padding: 10px;           
+    border-radius: 5px;      /* Bordas arredondadas */
+    overflow-x: auto;        /* Barra de rolagem horizontal */
+    color: #ff013c;
+}
+code{
+    font-family: "Courier New", Courier, monospace;
+    
+}
