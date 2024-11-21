@@ -135,7 +135,7 @@ section{
 .section__text__p4{
     font-size: 1.75rem;
     margin-bottom: 2rem;
-    align-self: center;
+    text-align: center;
 } 
 
 .title{
